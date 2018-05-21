@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Valet Parking Assistant</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome, please log in.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="start">Welcome to Fit-a-Lot. Click here to start!</string>
+    <string name="res_yes">We found a reservation on file for:</string>
+    <string name="res_no">There is no reservation on file.</string>
+    <string name="title_activity_enter_garage">Fit-A-Lot</string>
+    <string name="title_activity_yes_reservation">Reservation Found</string>
+    <string name="title_activity_no_reservation">Reservation Not Found</string>
+    <string name="res_num">Reservation Number</string>
+    <string name="names">First and Last Name</string>
+    <string name="phonenum">Phone Number</string>
+    <string name="confirm">Confirm and Park</string>
+    <string name="picktime">Please select pick-up time.</string>
+    <string name="title_activity_go_park">GoPark</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="thankyou">Thank you. Please continue to the security check.</string>
+    <string name="title_activity_collect_info">CollectInfo</string>
+    <string name="swipe">After, please swipe your drivers license</string>
+    <string name="swipesim">Swipe simulation</string>
+    <string name="title_activity_option">Option</string>
+    <string name="entercheck">Entrance Use</string>
+    <string name="valetcheck">Valet Use</string>
+    <string name="title_activity_disp_driv_lic">Display Drivers License</string>
+    <string name="title_activity_security_check">Security Check</string>
+    <string name="security">Security Pictures Taken</string>
+    <string name="ticket">Obtain Lot Number</string>
+    <string name="title_activity_lot_info">LotInfo</string>
+    <string name="licplate">License Plate Number:</string>
+    <string name="ticknum">Ticket Number:</string>
+    <string name="parkatlot">Park at Lot #:</string>
+    <string name="parked">Parked!</string>
+    <string name="title_activity_valet_option">ValetOption</string>
+    <string name="obtain">Obtain Car</string>
+    <string name="title_activity_obtain">Obtain</string>
+    <string name="title_activity_obtain_car">ObtainCar</string>
+    <string name="title_activity_obtain_info">ObtainInfo</string>
+    <string name="title_activity_testpage">TESTPAGE</string>
+
+</resources>

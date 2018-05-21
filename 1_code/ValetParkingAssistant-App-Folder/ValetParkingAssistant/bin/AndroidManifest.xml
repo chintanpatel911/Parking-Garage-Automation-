@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.valetparkingassistant"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.valetparkingassistant.Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.EnterGarage"
+            android:label="@string/title_activity_enter_garage"
+            android:parentActivityName="com.example.valetparkingassistant.Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.Welcome" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.YesReservation"
+            android:label="@string/title_activity_yes_reservation"
+            android:parentActivityName="com.example.valetparkingassistant.EnterGarage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.EnterGarage" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.NoReservation"
+            android:label="@string/title_activity_no_reservation"
+            android:parentActivityName="com.example.valetparkingassistant.EnterGarage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.EnterGarage" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.GoPark"
+            android:label="@string/title_activity_go_park"
+            android:parentActivityName="com.example.valetparkingassistant.EnterGarage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.EnterGarage" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.CollectInfo"
+            android:label="@string/title_activity_collect_info"
+            android:parentActivityName="com.example.valetparkingassistant.NoReservation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.NoReservation" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.Option"
+            android:label="@string/title_activity_option"
+            android:parentActivityName="com.example.valetparkingassistant.Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.Welcome" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.DispDrivLic"
+            android:label="@string/title_activity_disp_driv_lic"
+            android:parentActivityName="com.example.valetparkingassistant.CollectInfo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.CollectInfo" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.SecurityCheck"
+            android:label="@string/title_activity_security_check"
+            android:parentActivityName="com.example.valetparkingassistant.Option" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.Option" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.LotInfo"
+            android:label="@string/title_activity_lot_info" >
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.ValetOption"
+            android:label="@string/title_activity_valet_option"
+            android:parentActivityName="com.example.valetparkingassistant.Option" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.Option" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.Obtain"
+            android:label="@string/title_activity_obtain"
+            android:parentActivityName="com.example.valetparkingassistant.ValetOption" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.ValetOption" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.ObtainCar"
+            android:label="@string/title_activity_obtain_car"
+            android:parentActivityName="com.example.valetparkingassistant.ValetOption" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.ValetOption" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.ObtainInfo"
+            android:label="@string/title_activity_obtain_info"
+            android:parentActivityName="com.example.valetparkingassistant.ObtainCar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.ObtainCar" />
+        </activity>
+        <activity
+            android:name="com.example.valetparkingassistant.TESTPAGE"
+            android:label="@string/title_activity_testpage"
+            android:parentActivityName="com.example.valetparkingassistant.EnterGarage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.valetparkingassistant.EnterGarage" />
+        </activity>
+    </application>
+
+</manifest>
